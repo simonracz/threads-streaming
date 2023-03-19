@@ -3,7 +3,7 @@
 # Main Results
 ```
 +-----------------------+-------------+-----------+------------+
-| Threads Created       | Hello World | Blocking  | Coroutines |
+| New Threads Created   | Hello World | Blocking  | Coroutines |
 +-----------------------+-------------+-----------+------------+
 | Python                |           0 |         0 |          3 |
 | Go                    |          ~4 |        ~8 |         ~9 |
