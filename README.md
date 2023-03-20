@@ -78,7 +78,7 @@ ps H -C domains_co -o 'pid tid cmd comm'
   PID   TID CMD                         COMMAND
  5327  5327 ./domains_co                domains_co
  5327  5328 ./domains_co                tokio-runtime-w
-...the same tokio-runtime-ws for 34 times!
+...the same tokio-runtime-w(orker) for 34 times!
 ```
 
 For Java e.g.
