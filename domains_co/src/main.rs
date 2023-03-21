@@ -40,3 +40,21 @@ async fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 */
+
+/*
+#[tokio::main(flavor = "current_thread")]
+async fn main() -> anyhow::Result<()> {
+    let urls = [
+        "https://www.example.com",
+        "https://www.google.com",
+        "https://www.kpn.com",
+    ];
+    let mut statuses = Vec::new();
+    for url in urls {
+        let status = reqwest::get(url).await?.status();
+        statuses.push(status);
+    }
+    println!("{statuses:?}");
+    Ok(())
+}
+*/
