@@ -9,9 +9,10 @@ Code created during recording the [Processes, Threads, Coroutines in Various Pro
 | Python                |           0 |         0 |          4 |
 | Go                    |          ~4 |        ~8 |         ~9 |
 | Java (openjdk 17)     |          16 |        26 |          - |
-| Rust (reqwest, tokio) |           0 |         6 |        ~34 |
+| Rust (reqwest, tokio) |           0 |         6 |        ~34*|
 +-----------------------+-------------+-----------+------------+
 ```
+\* [@barafael](https://www.github.com/barafael) Provided a version of the Rust code that uses only 1 extra thread.
 
 # Build
 ```
